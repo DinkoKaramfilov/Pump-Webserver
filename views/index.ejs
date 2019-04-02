@@ -1,0 +1,52 @@
+<meta name="viewport" content="width=500, initial-scale=1"> <!--This line of code is for mobile responsive -->
+<h1>StickshiftMixer</h1>
+<div class="BorderMargin">
+  
+
+  <form action="/relay1/on" method="post">
+    <button type="submit" class="button">Pump 1 On </button>
+      <button type="submit" formmethod="post" formaction="/relay1/off" class="button button3">Pump 1 Off</button>
+  </form>
+
+<form action="/relay2/on" method="post">
+    <button type="submit" class="button">Pump 2 On </button>
+      <button type="submit" formmethod="post" formaction="/relay2/off" class="button button3">Pump 2 Off</button>
+  </form>
+
+<form action="/relay3/on" method="post">
+    <button type="submit" class="button">Pump 3 On </button>
+      <button type="submit" formmethod="post" formaction="/relay3/off" class="button button3">Pump 3 Off</button>
+  </form>
+
+<form action="/relay4/on" method="post">
+    <button type="submit" class="button">Pump 4 On </button>
+      <button type="submit" formmethod="post" formaction="/relay4/off" class="button button3">Pump 4 Off</button>
+  </form>
+
+  <a>Relay Status: <%=status %></a>
+</div>
+
+ 
+
+<!-- The below code is only for look and styling -->
+<style>
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+
+
+</style>

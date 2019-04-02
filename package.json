@@ -1,0 +1,19 @@
+{
+  "name": "relay-control-raspberrypi",
+  "version": "1.0.0",
+  "description": "Node.js webserver which controls the GPIO pins of the Relays.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rpi"
+  ],
+  "author": "Brandon Bachman",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "rpi-gpio": "^0.8.1"
+  }
+}
